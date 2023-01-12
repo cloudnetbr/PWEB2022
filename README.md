@@ -12,7 +12,7 @@ apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/cloudnet
 ```
 apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/cloudnetbr/PWEB2022/main/gestorssh/instcheck.sh)
 ```
-# INSTALAR OU ATUALIZAR PAINELWEB GESTOR-SSH DEBIAN 8, UBUNTU 14 E UBUNTU 18! ATUALIZAÇÃO 12/01/2023.. digulgasoft
+# INSTALAR OU ATUALIZAR PWEB TECH-CLOUD DEBIAN 8, UBUNTU 14 E UBUNTU 18! ATUALIZAÇÃO 12/01/2023.. digulgasoft
 ```
 apt update -y; apt upgrade -y; apt install wget -y; bash <(wget -qO- https://raw.githubusercontent.com/cloudnetbr/PWEB2022/main/gestorssh/instpainel.sh)
 ```
