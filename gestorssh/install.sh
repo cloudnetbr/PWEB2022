@@ -5,7 +5,7 @@ ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime > /dev/null 2>&1
 dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
 IP=$(wget -qO- ipv4.icanhazip.com)
 clear
-echo -e "\E[44;1;37m    INSTALAR PWEB TECH-CLOUD 🚀     \E[0m" 
+echo -e "\E[44;1;37m    INSTALAR PAINEL WEB TECH-SSH     \E[0m" 
 echo ""
 echo -e "                 \033[1;31mBy @cloudtechnetwork\033[1;36m"
 echo ""
@@ -108,7 +108,7 @@ sed -i "s;49875103u;$_key;g" /var/www/html/pages/system/config.php > /dev/null 2
 sed -i "s;localhost;$IP;g" /var/www/html/pages/system/config.php > /dev/null 2>&1
 clear
 sleep 1
-echo -e "\033[1;32m TECH-CLOUD INSTALADO COM SUCESSO!"
+echo -e "\033[1;32m TECH-SSH INSTALADO COM SUCESSO!"
 echo ""
 echo -e "                 \033[1;31mBy @cloudtechnetwork\033[1;36m"
 echo ""
